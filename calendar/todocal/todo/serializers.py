@@ -7,7 +7,7 @@ class TaskSerializer(serializers.HyperlinkedModelSerializer):
         model = Task
         fields = "__all__"
 
-class CommentSerializer(serializers.HyperlinkedModelSerializer):
+class CategorySerializer(serializers.HyperlinkedModelSerializer):
 
     class Meta:
         model = Category
