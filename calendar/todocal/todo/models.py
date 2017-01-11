@@ -20,3 +20,4 @@ class Category(models.Model):
         return self.title
 
 # more models to add?
+# class Users
