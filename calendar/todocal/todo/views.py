@@ -1,6 +1,6 @@
 from django.shortcuts import render
 from rest_framework import viewsets
-from .models import Task, Category, User
+from .models import Task, Category # , User
 from .serializers import TaskSerializer, CategorySerializer, UserSerializer
 from .forms import TaskForm, CategoryForm
 

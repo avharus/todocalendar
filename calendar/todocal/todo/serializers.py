@@ -13,8 +13,8 @@ class CategorySerializer(serializers.HyperlinkedModelSerializer):
         model = Category
         fields = "__all__"
 
-class UserSerializer(serializers.HyperlinkedModelSerializer):
+# class UserSerializer(serializers.HyperlinkedModelSerializer):
 
-    class Meta:
-        model = Category
-        fields = "__all__"
+#     class Meta:
+#         model = Category
+#         fields = "__all__"
