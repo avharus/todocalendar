@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from rest_framework import viewsets
 from .models import Task, Category # , User
-from .serializers import TaskSerializer, CategorySerializer, UserSerializer
+from .serializers import TaskSerializer, CategorySerializer #, UserSerializer
 from .forms import TaskForm, CategoryForm
 
 class TaskViewSet(viewsets.ModelViewSet):
@@ -12,6 +12,6 @@ class CategoryViewSet(viewsets.ModelViewSet):
     queryset = Category.objects.all()
     serializer_class = CategorySerializer
 
-class UserViewSet(viewsets.ModelViewSet):
-    queryset = User.objects.all()
-    serializer_class = UserSerializer
+# class UserViewSet(viewsets.ModelViewSet):
+#     queryset = User.objects.all()
+#     serializer_class = UserSerializer

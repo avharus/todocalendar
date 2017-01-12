@@ -1,4 +1,4 @@
-from .models import Task, Category, User
+from .models import Task, Category # , User
 from rest_framework import serializers
 
 class TaskSerializer(serializers.HyperlinkedModelSerializer):
